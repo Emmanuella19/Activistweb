@@ -1,0 +1,163 @@
+/* STYLE SECTIONING TAGS */
+* {
+   margin: 4.2px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ffc4d6; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #FD0D61;
+  font-family: "serif";
+  font-size: 40px;
+}
+
+h2 {
+  color: #ff5d8f;
+}
+
+#plus {
+  margin-top: 200px;
+  font-family: "fantasy";
+  font-size: 14px;
+}
+
+h6 {
+  color: #ff5d8f
+}
+
+nav {
+  margin: 15px;
+}
+
+p {
+     margin-bottom: 20px; 
+    color: #112A46;
+    font-family: "Didot", serif;
+    font-weight: normal;
+  text-align: left;
+}
+
+section {
+  margin-top: 10px; 
+    color: #112A46;
+    font-family: "Didot", serif;
+    font-weight: normal;
+  text-align: left;
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  border-style: solid;
+  border-width: medium;
+  border-color: #FD0D61 #F0E6EF;
+}
+
+#video {
+  border-style: solid;
+  border-width: medium;
+  border-color: #FD0D61 #F0E6EF;
+  margin-top: 2%;
+}
+
+.spaced {
+  margin: 60px;
+  margin-bottom: 20px;
+}
+
+.yay {
+  list-style-position: inside;
+  font-family: "Didot", serif;
+  color: #112A46;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #f20089;
+  overflow: hidden;
+  padding: 1em;
+  text-align-last: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #F0E6EF;
+  font-size: 1.3em;
+  padding: 2em;
+}
+
+li a:hover {
+  background-color: hotpink;
+}
+
+.nay {
+  margin-right: 43px;
+}
+
+#me{
+  margin-top: 20px
+}
+
+#deli {
+  margin-top: 0%;
+}
+
+.mom {
+  margin-bottom: 3.4%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+@media screen and (max-width: 850px) {
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
+
+#light {
+  font-family: "Apple Chancery", cursive;
+  color: #f20089;
+  font-size: 15px;
+}
+
+#myButton {
+  font-family: "Marker Felt", fantasy;
+  font-weight: normal;
+  color: #f20089;
+  background-color: white;
+  font-size: 14px; 
+  padding: 15px 30px; 
+  width: auto; 
+  height: auto; 
+  border-color: #FD0D61 hotpink;
+  cursor: pointer;
+}
+
+.meew {
+  border-style: solid;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-color: #FD0D61 hotpink;
+  border-width: 0%;
+  background-color: pink;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
